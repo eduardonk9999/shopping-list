@@ -88,6 +88,61 @@ ul.todo li a{
   height: 50px;
   background: #fff;
   text-align: center;
-  padding: 0px;
+  padding: 5px;
   border-radius: 50px;
+}
+
+@media(max-width:768px){
+  h1.logo {
+    font-size: 35px;
+    margin: 0 auto 30px 0;
+    text-align: center;
+  }
+  h1.logo img {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+
+    transform: translateY(-7px);
+  }
+  .wrapper{
+    width: 90%;
+  }
+  article.insert{
+    flex-direction: column;
+  }
+  ul.todo li {
+    list-style: none;
+    background: #48afff;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px 0 10px 0;
+    border-radius: 1px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    align-items: center;
+  }
+  ul.todo li a img {
+    max-width: 20px;
+  }
+  ul.todo li a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    text-align: center;
+    padding: 1px;
+    border-radius: 50px;
+  }
+  input.campo {
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto 20px auto;
+  }
+  button.btn{
+    width: 100%;
+    padding: 10px;
+  }
 }
