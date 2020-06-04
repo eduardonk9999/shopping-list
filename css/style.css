@@ -145,4 +145,8 @@ ul.todo li a{
     width: 100%;
     padding: 10px;
   }
+
+  input{
+    font-size: 16px;
+  }
 }
