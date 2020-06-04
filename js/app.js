@@ -17,7 +17,7 @@ function renderItem() {
    let itm = listaItens.indexOf(item);
    
    let img = document.createElement('img');
-   img.src = '../img/trash.png';
+   img.src = 'img/trash.png';
    console.log(img);
    
    
